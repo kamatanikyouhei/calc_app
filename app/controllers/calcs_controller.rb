@@ -8,7 +8,8 @@ class CalcsController < ApplicationController
       @msg4 = @msg1 - @msg3 ;
     elsif @msg2 = params["multiplication"]
       @msg4 = @msg1 * @msg3 ;
-    else  @msg2 = params["division"]
+    else  @msg2 = params["division"] 
       @msg4 = @msg1 / @msg3
     end
   end
+end
